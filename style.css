@@ -34,53 +34,34 @@ header nav a:hover {
     color: #F0E68C;
 }
 
-/* Seção de Contato */
-#contato {
+/* Seções */
+section {
     padding: 40px;
     background-color: #fff;
     text-align: center;
 }
 
-h2 {
+h1, h2 {
     color: #3C3C3B;
-    font-size: 2em;
     margin-bottom: 20px;
 }
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #e7e7d6;
-    border-radius: 10px;
+p {
+    color: #666;
+    font-size: 1.1em;
 }
 
-form label {
-    display: block;
-    margin: 10px 0 5px;
-    color: #3C3C3B;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 1em;
+ul li {
+    margin-bottom: 10px;
 }
 
-form button {
-    background-color: #7BBF6A;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-form button:hover {
-    background-color: #679752;
+ul li strong {
+    color: #7BBF6A;
 }
 
 /* Rodapé */
